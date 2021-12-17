@@ -7,6 +7,8 @@ how to become a multi-platform Architect?
 from beginning 
 - team and time, Reactive programming is a good tool with a high learning curve when time is limited and the team is not confirmable take the next tool
 - do not change your tool for the legacy projects, mixing is not good , until you have a plan
+- android has a lot of libaray , try to select a libary that works with xml/compose 
+in future you have to remove xml 
 
 ## UI
     Compose (avoid XML as you can)
@@ -18,13 +20,15 @@ from beginning
     runtime.State : compose
 
 ## imagepicker
-   dhaval2404: camera/gallery/Image croping
+    dhaval2404: camera/gallery/Image croping
+   
 ## Reactive Programming:
     Flows API  
     Channels: use Flows API to be consistent 
     reaktive : good library for Reactive Programming multi-platform
     RXJava : avoid RXJava , almost dead  
     rxbinding :android xml views to streams
+    
 ## Architecture Patterns
     MVC : leave the interview because this company retarded
     MVP : dead why? each screen required two interfaces (presenter/view), mocking for test...
@@ -52,15 +56,15 @@ from beginning
     dagger hilt: good tool until testing
 
 ## DateBase
-        Room db : always
-        SQLite/cipher : use can close Roomdb with password 
-        Realm
-        NoSQl
-        SQLDelight (kmm)
+    Room db : always
+    SQLite/cipher : use can close Roomdb with password 
+    Realm
+    NoSQl
+    SQLDelight (kmm)
         
 ## HttpClient
-        Retrofit2 : always , al lot of support
-        ktor(kmm)
+    Retrofit2 : always , al lot of support
+    ktor(kmm)
         
 ## Json Pasring 
     Gson
@@ -68,18 +72,18 @@ from beginning
     mosi
      
 ## Image Loader
-        Coil : always
-        Picasso
-        Glide
+    Coil : always
+    Picasso
+    Glide
 
 ## Testing 
-        Truth : google assertion library, assertions are made with chained method calls,
-        Hamcrest : more power than Truth but more complex
-        Espresso : android UI test
-        Mokitio : never because java is outdated 
-        mockK : always
-        Robolectric : android test run as local test
-        kover:kotlin test coverage
+    Truth : google assertion library, assertions are made with chained method calls,
+    Hamcrest : more power than Truth but more complex
+    Espresso : android UI test
+    Mokitio : never because java is outdated 
+    mockK : always
+    Robolectric : android test run as local test
+    kover:kotlin test coverage
     
 ## Authutication
     Firebase 
@@ -89,14 +93,14 @@ from beginning
     Stripe
 
 ## Kotlin Multiplatform Mobile
-        SQLDelight
-        Ktor
-        kotlinx.serialization
-        kotlinx-datetime
+    SQLDelight
+    Ktor
+    kotlinx.serialization
+    kotlinx-datetime
         
 ## static analysis (add this to CI pipeline)
     ktlint : code fromater and checker, make  sure to 
-     Detekt: checks for code smells. Examples include magic numbers, complicated conditionals, long methods  
+    Detekt: checks for code smells. Examples include magic numbers, complicated conditionals, long methods  
      
 ## Automation 
     triplet.play , CD pipeline tools , push apks to playStore
