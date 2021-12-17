@@ -58,8 +58,6 @@ in future you have to remove xml
 ## DateBase
     Room db : always
     SQLite/cipher : use can close Roomdb with password 
-    Realm
-    NoSQl
     SQLDelight (kmm)
         
 ## HttpClient
@@ -72,7 +70,7 @@ in future you have to remove xml
     mosi
      
 ## Image Loader
-    Coil : always
+    Coil : always (compose/xml)
     Picasso
     Glide
 
