@@ -3,13 +3,55 @@ how to become Android Architect?
 how to become a multi-platform Architect? 
 
 ## Basic Rules
-- if you have a plan to use KMM, select a kmm library 
-from beginning 
+- if you have a plan to use KMM, select a kmm library from beginning 
 - team and time, Reactive programming is a good tool with a high learning curve when time is limited and the team is not confirmable take the next tool
-- do not change your tool for the legacy projects, mixing is not good , until you have a plan
-- android has a lot of libaray , try to select a libary that works with xml/compose 
-in future you have to remove xml 
+- android has a lot of libaray , try to select a libary that works with xml/compose in future you have to remove xml 
+- do not change your tool for the legacy projects, mixing is not good , until you have a very very good plan
 
+_ these tools only recommendation not take things personal
+
+# Good news 
+- kmm support 100% code sharing android/ios for business logic
+- Compose reach android/desktop/web , soon we will have another flutter wrriten in kotlin
+
+## Architecture Patterns
+    MVC : leave the interview because this company retarded
+    MVP : dead why? each screen required two interfaces (presenter/view), mocking for test...
+    MVVM : always 
+    UDF : try to use udf pattern to simplify MVVM 
+    MVI : alterantive to mvvm/udf
+   
+## Dependency injection 
+    Manual: using kolin (lazy , Default Values )
+    koin: easy swipe Imp.
+    dagger hilt: good tool until testing
+    
+## Reactive Programming:
+    Flows API  
+    Channels: use Flows API to be consistent 
+    reaktive : good library for Reactive Programming multi-platform
+    RXJava : avoid RXJava , almost dead  
+    rxbinding :android xml views to streams
+    
+## API Flows
+    StateFlow: state holer
+    shardFlow: one time event
+    turbine : libaray for flow testing
+
+## DateBase
+    Room db : always
+    SQLite/cipher : use can close Roomdb with password 
+    SQLDelight (kmm)
+         
+## HttpClient
+    Retrofit2 : always , al lot of support
+    ktor(kmm)
+        
+## Json Pasring 
+    Gson
+    kotlinx.serialization(kmm)
+    mosi
+    
 ## UI
     Compose (avoid XML as you can)
     material3: something changes button color as wallpaper, do not need it
@@ -22,24 +64,10 @@ in future you have to remove xml
 ## imagepicker
     dhaval2404: camera/gallery/Image croping
    
-## Reactive Programming:
-    Flows API  
-    Channels: use Flows API to be consistent 
-    reaktive : good library for Reactive Programming multi-platform
-    RXJava : avoid RXJava , almost dead  
-    rxbinding :android xml views to streams
-    
-## Architecture Patterns
-    MVC : leave the interview because this company retarded
-    MVP : dead why? each screen required two interfaces (presenter/view), mocking for test...
-    MVVM : always 
-    UDF : try to use udf pattern to simplify MVVM 
-    MVI : alterantive to mvvm/udf
-    
-## API Flows
-    StateFlow: state holer
-    shardFlow: one time event
-    turbine : libaray for flow testing
+## Image Loader
+    Coil : always (compose/xml)
+    Picasso
+    Glide
     
 ## Archituect Component
     Navigation Component
@@ -49,31 +77,7 @@ in future you have to remove xml
     shared-preferences : will be replaced with DateStore 
     Live data
     pagging3 : avoid this library, build your paging system , a lot of functionality is missing
-
-## Dependency injection 
-    Manual: using kolin (lazy , Default Values )
-    koin: easy swipe Imp.
-    dagger hilt: good tool until testing
-
-## DateBase
-    Room db : always
-    SQLite/cipher : use can close Roomdb with password 
-    SQLDelight (kmm)
-        
-## HttpClient
-    Retrofit2 : always , al lot of support
-    ktor(kmm)
-        
-## Json Pasring 
-    Gson
-    kotlinx.serialization(kmm)
-    mosi
      
-## Image Loader
-    Coil : always (compose/xml)
-    Picasso
-    Glide
-
 ## Testing 
     Truth : google assertion library, assertions are made with chained method calls,
     Hamcrest : more power than Truth but more complex
