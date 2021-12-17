@@ -8,7 +8,7 @@ how to become a multi-platform Architect?
 - android has a lot of libaray , try to select a libary that works with xml/compose in future you have to remove xml 
 - do not change your tool for the legacy projects, mixing is not good , until you have a very very good plan
 
-_ these tools only recommendation not take things personal
+_these tools only recommendation not take things personal_
 
 # Good news 
 - kmm support 100% code sharing android/ios for business logic
