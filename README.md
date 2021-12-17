@@ -25,6 +25,7 @@ _these tools only recommendations stop taking things personallyl_
     Manual: using kolin (lazy , Default Values )
     koin: easy swipe Imp.
     dagger hilt: good tool until testing
+    dagger2: to be fired just add to the project 
     
 ## Reactive Programming:
     Flows API  
