@@ -12,7 +12,7 @@ _these tools only recommendations stop taking things personallyl_
 
 # Good news 
 - kmm support 100% code sharing android/ios for business logic
-- Compose reach android/desktop/web , soon we will have another flutter wrriten in kotlin
+- Compose now works on android/desktop/web , soon we will have another flutter wrriten in kotlin with native way
 
 ## Architecture Patterns
     MVC : leave the interview because this company retarded
