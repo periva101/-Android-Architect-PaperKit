@@ -107,5 +107,5 @@ in future you have to remove xml
     Please add labels to this PR. , Please consider breaking up this pull request. Please provide a summary in the Pull Request description)
     
 ## Branching strategy 
-    gitflow : complex, a lot of conflict , complex
+    gitflow : complex, a lot of conflicts , complex
     Truck-base : short live branches with minimum conflicts, google use this approach
